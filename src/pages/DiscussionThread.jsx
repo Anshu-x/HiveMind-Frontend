@@ -91,7 +91,7 @@ export const DiscussionThread = () => {
         ))}
       </div>
 
-      {/* Reply Input (Fixed at Bottom) */}
+      {/* Reply Input*/}
       <div className="fixed bottom-0 left-0 w-full bg-white/60 dark:bg-gray-800/60 backdrop-blur-lg shadow-md p-4 border-t dark:border-gray-700 flex items-center space-x-4">
         <textarea
           rows={2}

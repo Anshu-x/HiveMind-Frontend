@@ -17,7 +17,7 @@ import { Leaderboard } from "./pages/Leaderboard";
 import { Login } from "./pages/Login";
 import { Signup } from "./pages/Signup";
 import { Welcome } from "./pages/Welcome";
-import './index.css'; // Ya jo bhi CSS file ho
+import './index.css'; 
 
 function Layout() {
   const location = useLocation();
@@ -34,9 +34,9 @@ function Layout() {
       <div className="flex w-full">
         {showNavbar && <Sidebar className="w-64" />}
 
-        {/* Main Content Area - Centered & Wider */}
+        {/* Main Content Area*/}
         <main className="flex-1 flex justify-center items-center p-6">
-          <div className="w-full max-w-5xl"> {/* Increased max width */}
+          <div className="w-full max-w-5xl"> 
             <Routes>
               {/* Auth Routes (No Navbar/Sidebar) */}
               <Route path="/" element={<Welcome />} />

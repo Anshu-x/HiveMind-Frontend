@@ -35,7 +35,6 @@ export const AiChat = () => {
     setMessage("");
     setIsTyping(true);
 
-    // Simulate AI response after 1.5 seconds
     setTimeout(() => {
       setMessages((prev) => [
         ...prev,

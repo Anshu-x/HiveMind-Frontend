@@ -16,10 +16,10 @@ export const Navbar = () => {
     { path: '/leaderboard', label: 'Leaderboard', icon: Trophy }
   ];
 
-  // ✅ Handle Logout and Redirect
+  //  Handle Logout and Redirect
   const handleLogout = () => {
     // TODO: Clear user session or token
-    navigate('/login'); // Redirect to login page
+    navigate('/login'); 
   };
 
   return (
@@ -75,7 +75,7 @@ export const Navbar = () => {
             {/* Logout Button */}
             <button
               className="flex items-center space-x-2 p-2 rounded-lg text-red-600 hover:bg-red-50 dark:text-red-400 dark:hover:bg-red-900/50 transition-colors"
-              onClick={handleLogout} // ✅ Calls logout function
+              onClick={handleLogout} 
             >
               <LogOut className="w-5 h-5" />
             </button>

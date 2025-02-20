@@ -29,7 +29,7 @@ export function Signup() {
       {/* Background Glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle,rgba(63,94,251,0.15)_0%,rgba(252,70,107,0)_60%)] pointer-events-none"></div>
 
-      {/* Glassmorphic Signup Card */}
+      {/* Signup Card */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

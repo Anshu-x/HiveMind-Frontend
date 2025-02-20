@@ -64,7 +64,7 @@ export const Explore = () => {
           </div>
         </div>
 
-        {/* 🏆 Popular Contributors */}
+        {/* Popular Contributors */}
         <div className="p-6 rounded-2xl bg-gray-800 bg-opacity-90 backdrop-blur-lg shadow-xl border border-gray-600 hover:border-indigo-500 transition-all">
           <h2 className="text-2xl font-bold text-indigo-400 mb-6">🏆 Popular Contributors</h2>
           <div className="space-y-6">
@@ -88,7 +88,7 @@ export const Explore = () => {
         </div>
       </div>
 
-      {/* 📊 Daily Poll & Challenge */}
+      {/* Daily Poll & Challenge */}
       <div className="grid md:grid-cols-2 gap-12 mt-12">
         {/* 📊 Daily Poll */}
         <div className="p-6 rounded-2xl bg-gray-800 bg-opacity-90 backdrop-blur-lg shadow-xl border border-gray-600 hover:border-indigo-500 transition-all">
@@ -109,7 +109,7 @@ export const Explore = () => {
           {selectedPoll && <p className="text-green-400 mt-4">✔️ Voted: {selectedPoll}</p>}
         </div>
 
-        {/* 🏆 Daily Coding Challenge */}
+        {/* Daily Coding Challenge */}
         <div className="p-6 rounded-2xl bg-gray-800 bg-opacity-90 backdrop-blur-lg shadow-xl border border-gray-600 hover:border-indigo-500 transition-all">
           <h2 className="text-2xl font-bold text-indigo-400 mb-6">🏆 Daily Coding Challenge</h2>
           <p className="text-lg text-gray-100 mb-2">{dailyChallenge.title}</p>
