@@ -13,8 +13,8 @@ export const Explore = () => {
 
   const contributors = [
     { name: "Anshu", profilePic: "https://randomuser.me/api/portraits/men/1.jpg", posts: 25 },
-    { name: "Hari", profilePic: "https://randomuser.me/api/portraits/men/2.jpg", posts: 50 },
-    { name: "Gops", profilePic: "https://randomuser.me/api/portraits/men/3.jpg", posts: 29 },
+    { name: "Surya", profilePic: "https://randomuser.me/api/portraits/men/2.jpg", posts: 32 },
+    { name: "Aditya", profilePic: "https://randomuser.me/api/portraits/men/3.jpg", posts: 29 },
   ];
 
   const dailyPoll = {
