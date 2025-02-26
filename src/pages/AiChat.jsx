@@ -16,16 +16,25 @@ export const AiChat = () => {
   }, [messages]);
 
   const generateBotResponse = (userMessage) => {
-    if (userMessage.toLowerCase().includes("hello")) {
-      return "Hi there! How can I help you today?";
-    } else if (userMessage.toLowerCase().includes("help")) {
-      return "Sure! What do you need assistance with?";
-    } else if (userMessage.toLowerCase().includes("react")) {
-      return "React is a JavaScript library for building user interfaces. Do you want to learn more?";
+    const lowerCaseMessage = userMessage.toLowerCase();
+  
+    if (lowerCaseMessage.includes("hello")) {
+      return "Hey there! 👋 Ready to dive into some cool tech stuff?";
+    } else if (lowerCaseMessage.includes("help")) {
+      return "Absolutely! What’s troubling you? Tech woes or just existential dread? 😆";
+    } else if (lowerCaseMessage.includes("react")) {
+      return "React? Oh, the magic behind modern UIs! Hooks or Components—what's your struggle today? ⚛️";
+    } else if (lowerCaseMessage.includes("javascript")) {
+      return "Ah, JavaScript! The language that works even when it shouldn't. What’s cooking—closures, async/await, or a bug that just won’t die? 🔥";
+    } else if (lowerCaseMessage.includes("css")) {
+      return "CSS: where a missing semicolon can break your entire layout! Are we talking Flexbox, Grid, or some dark magic animations? 🎨";
+    } else if (lowerCaseMessage.includes("ai")) {
+      return "AI? Oh, you're summoning the future! Machine learning, neural networks, or just curious about Skynet? 🤖";
     } else {
-      return "I'm still learning! But I'm here to assist you. 🚀";
+      return "I'm still evolving! But hey, if you wanna talk tech, I'm all ears. 🚀";
     }
   };
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
