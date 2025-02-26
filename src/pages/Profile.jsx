@@ -3,16 +3,16 @@ import { Mail, MessageSquare, Star, Award, Calendar } from "lucide-react";
 
 export const Profile = () => {
   const user = {
-    name: "Anshu",
-    email: "anshux000@gmail.com",
+    name: "Surya",
+    email: "panisuryakanta01@gmail.com",
     avatar:
-      "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202405/pm-modi-smiling-064650298-1x1.jpeg?VersionId=9w2sDdTPC74oi3qxdo8II4Sco1dvH1NT",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScKU3YdV6D6fztGYERjmk8mGNITTy5gLoFlw&s",
     joinDate: "January 2025",
-    posts: 23,
-    threads: 12,
-    reputation: 1250,
-    achievements: 8,
-    bio: "Passionate Machine Learning Engineer and AI Enthusiast.",
+    posts: 25,
+    threads: 10,
+    reputation: 1350,
+    achievements: 10,
+    bio: "Backend developer with a passion for building scalable applications. Love to explore new technologies and frameworks.",
   };
 
   const stats = [
@@ -24,17 +24,17 @@ export const Profile = () => {
 
   const recentActivity = [
     {
-      title: "How to fine-tune a Llama 2 model on custom data?",
+      title: "How to deploy a Django application on AWS?",
       timestamp: "2 hours ago",
       replies: 5,
     },
     {
-      title: "Best practices for optimizing MongoDB queries?",
+      title: "Best practices for securing REST APIs",
       timestamp: "1 day ago",
       replies: 8,
     },
     {
-      title: "Understanding Transformer architectures in NLP",
+      title: "Optimizing React performance with useMemo",
       timestamp: "3 days ago",
       replies: 12,
     },

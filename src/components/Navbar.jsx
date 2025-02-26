@@ -66,7 +66,7 @@ export const Navbar = () => {
             {/* Profile Picture */}
             <Link to="/profile">
               <img
-                src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202405/pm-modi-smiling-064650298-1x1.jpeg?VersionId=9w2sDdTPC74oi3qxdo8II4Sco1dvH1NT" // Replace with actual profile pic URL
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScKU3YdV6D6fztGYERjmk8mGNITTy5gLoFlw&s" 
                 alt="Profile"
                 className="w-10 h-10 rounded-full border-2 border-indigo-500 dark:border-indigo-400"
               />
